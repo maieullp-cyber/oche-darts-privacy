@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>OCHE — Support</title>
+    <meta name="description" content="Get help with OCHE — Dart Scorer for iOS and Android." />
+    <style>
+      :root {
+        --bg: #03051a;
+        --surface: #0f1230;
+        --surface-2: #1a2240;
+        --text: #f5f7ff;
+        --text-dim: #9aa3c0;
+        --accent: #22d3ee;
+        --border: rgba(255, 255, 255, 0.08);
+        --radius: 12px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        font-size: 17px;
+        min-height: 100dvh;
+      }
+      main { max-width: 760px; margin: 0 auto; padding: 32px 24px 64px; }
+      h1 { font-size: 2.2rem; font-weight: 900; letter-spacing: -0.02em; margin: 0 0 8px; }
+      .tagline { color: var(--text-dim); margin: 0 0 32px; font-size: 1.05rem; }
+      h2 { font-size: 1.2rem; font-weight: 800; margin: 32px 0 12px; color: var(--accent); }
+      p { margin: 0 0 16px; }
+      a { color: var(--accent); text-decoration: none; border-bottom: 1px dashed currentColor; }
+      a:hover { border-bottom-style: solid; }
+      .contact-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 20px 22px;
+        margin: 24px 0;
+      }
+      .contact-card p { margin: 0; }
+      .contact-card strong { color: var(--accent); display: block; font-size: 1.1rem; margin-bottom: 6px; }
+      ul { padding-left: 22px; margin: 0 0 16px; }
+      li { margin: 8px 0; }
+      .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.9rem; text-align: center; }
+      .faq-item { background: var(--surface); border-radius: var(--radius); padding: 16px 18px; margin: 12px 0; border: 1px solid var(--border); }
+      .faq-item summary { cursor: pointer; font-weight: 700; padding: 4px 0; outline: none; }
+      .faq-item summary::-webkit-details-marker { color: var(--accent); }
+      .faq-item[open] { background: var(--surface-2); }
+      .faq-item p { margin: 12px 0 0; color: var(--text-dim); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>OCHE — Support</h1>
+      <p class="tagline">Help with OCHE — Dart Scorer. Reach out anytime.</p>
+
+      <div class="contact-card">
+        <p><strong>Contact</strong><a href="mailto:ocheapp.contact@gmail.com">ocheapp.contact@gmail.com</a></p>
+      </div>
+
+      <p>Send us an email with your device model (iPhone / iPad / Android) and the iOS / Android version you're on. We typically reply within 48 hours.</p>
+
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+      </ul>
+
+      <h2>Frequently asked questions</h2>
+
+      <details class="faq-item">
+        <summary>I bought Premium but it's not active on my other device</summary>
+        <p>Open OCHE → Settings → tap "Restore Purchases". Apple / Google will re-validate your Premium entitlement. The same purchase covers up to five family members via Family Sharing on iOS.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>I want a refund</summary>
+        <p>Refunds are handled by the platform you bought from, not by us. On iOS: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. On Android: Play Store → Order history → Request refund. We can answer questions but cannot refund directly.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Ads are not playing on my device</summary>
+        <p>Make sure you have an internet connection. Ad-blockers or restricted-tracking settings can prevent ad delivery. If you saw no ads at all on your first launch, please contact us — your device may have hit Google's anti-fraud heuristic. Premium removes all ads regardless.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>My stats / profiles disappeared after reinstalling</summary>
+        <p>OCHE stores all data locally on your device (no cloud account). Uninstalling clears game history, profiles and achievements. On Android the system backup may restore them; on iOS, iCloud backup restores them only if the device was restored from backup. Premium status itself is always recoverable via "Restore Purchases".</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Which modes are free vs Premium ?</summary>
+        <p>The X01 family (301, 501, 701, 901, 301 Double) and Cricket (Classic + Cut-Throat) and Training are <strong>free forever, unlimited</strong>. The "fun modes" (Killer, Hunter, Shanghai, Gotcha, Around the Clock, Halve It, and 11 others) give you 3 free games before you need Premium or watch an ad.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Bug report / feature request</summary>
+        <p>Email <a href="mailto:ocheapp.contact@gmail.com">ocheapp.contact@gmail.com</a> with what happened, the mode you were playing, and a screenshot if possible. We read everything.</p>
+      </details>
+
+      <p class="footer">© 2026 OCHE — Dart Scorer</p>
+    </main>
+  </body>
+</html>
